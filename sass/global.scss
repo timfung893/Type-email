@@ -1,0 +1,19 @@
+body {
+  background: var(--body-bg);
+  font-family: var(--primary-font);
+}
+
+.wrapper {
+  max-width: var(--body-size);
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1130px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}

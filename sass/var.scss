@@ -1,0 +1,35 @@
+:root {
+  --primary-font: "Sora", sans-serif;
+  --body-bg: #fdf9f1;
+  --body-size: 1440px;
+  --heading-color: linear-gradient(93.52deg, #e6ff4b 8.71%, #00bd82 98.16%);
+  --header-bg: #1e1e1e;
+}
+
+.heading {
+  font-size: 52px;
+  line-height: calc(62 / 52);
+  background: var(--heading-color);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}
+
+.heading-sub {
+  font-size: 50px;
+  line-height: calc(63 / 50);
+  font-weight: 600;
+}
+
+.heading-child {
+  font-size: 40px;
+  line-height: calc(50 / 40);
+  font-weight: 600;
+}
+
+.heading-child__title {
+  font-size: 20px;
+  line-height: calc(25 / 20);
+  font-weight: 600;
+}
